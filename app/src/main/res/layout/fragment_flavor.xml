@@ -124,6 +124,7 @@
                 android:id="@+id/cancel_button"
                 android:layout_marginEnd="@dimen/side_margin"
                 style="?attr/materialButtonOutlinedStyle"
+                android:onClick="@{() -> flavorFragment.cancelOrder()}"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/cancel"
